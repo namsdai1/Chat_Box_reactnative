@@ -5,141 +5,104 @@ export default {
       id: 'u1',
       name: 'Vadim',
       imageUri:
-        'https://firebasestorage.googleapis.com/v0/b/flutterbasic-3c714.appspot.com/o/image3.jpeg?alt=media&token=2fcd7125-eb16-490a-a945-9f9172df1e7d',
+        'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/vadim.jpg',
     },
     {
       id: 'u2',
-      name: 'Lukas',
+      name: 'Elon Musk',
       imageUri:
-        'https://firebasestorage.googleapis.com/v0/b/flutterbasic-3c714.appspot.com/o/image3.jpeg?alt=media&token=2fcd7125-eb16-490a-a945-9f9172df1e7d',
+        'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/elon.png',
     },
   ],
   messages: [
     {
-      id: 'm3',
-      content: 'ban khoe do ',
-      createdAt: 1656048999999,
-      user: {
-        id: 'u2',
-        name: 'Lukas',
-      },
-    },
-    {
-      id: 'm3',
-      content: 'ban khoe do ',
-      createdAt: 1656048999999,
-      user: {
-        id: 'u2',
-        name: 'Lukas',
-      },
-    },
-    {
-      id: 'm3',
-      content: 'ban khoe do ',
-      createdAt: 1656048999999,
-      user: {
-        id: 'u2',
-        name: 'Lukas',
-      },
-    },
-    {
-      id: 'm3',
-      content: 'ban khoe do ',
-      createdAt: 1656048999999,
-      user: {
-        id: 'u2',
-        name: 'Lukas',
-      },
-    },
-    {
-      id: 'm3',
-      content: 'ban khoe do ',
-      createdAt: 1656048999999,
-      user: {
-        id: 'u2',
-        name: 'Lukas',
-      },
-    },
-    {
-      id: 'm3',
-      content: 'ban khoe do ',
-      createdAt: 1656048999999,
-      user: {
-        id: 'u2',
-        name: 'Lukas',
-      },
-    },
-    {
-      id: 'm3',
-      content: 'ban khoe do ',
-      createdAt: 1656048999999,
-      user: {
-        id: 'u2',
-        name: 'Lukas',
-      },
-    },
-    {
-      id: 'm3',
-      content: 'ban khoe do ',
-      createdAt: 1656048999999,
-      user: {
-        id: 'u2',
-        name: 'Lukas',
-      },
-    },
-    {
-      id: 'm3',
-      content: 'ban khoe do ',
-      createdAt: 1656048999999,
-      user: {
-        id: 'u2',
-        name: 'Lukas',
-      },
-    },
-    {
-      id: 'm3',
-      content: 'ban khoe koaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa ',
-      createdAt: 1656038599999,
+      id: 'm1',
+      content: 'How are you, Elon!',
+      createdAt: '2020-10-02T12:48:00.000Z',
       user: {
         id: 'u1',
-        name: 'Lukas',
+        name: 'Vadim',
       },
     },
     {
-      id: 'm3',
-      content: 'ban khoe koaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa ',
-      createdAt: 1656038599999,
-      user: {
-        id: 'u1',
-        name: 'Lukas',
-      },
-    },
-    {
-      id: 'm3',
-      content: 'chao ng lạ ',
-      createdAt: 1656038599999,
-      user: {
-        id: 'u1',
-        name: 'Lukas',
-      },
-    },
-
-    {
-      id: 'm3',
-      content: 'Chào Nam , mình tên lạ ',
-      createdAt: 1656038599999,
+      id: 'm2',
+      content: 'I am good, good',
+      createdAt: '2020-10-03T14:49:00.000Z',
       user: {
         id: 'u2',
-        name: 'Lukas',
+        name: 'Elon Musk',
       },
     },
     {
       id: 'm3',
-      content: 'Chào Nam , mình tên lạ ',
-      createdAt: 1246038599999,
+      content: 'What about you?',
+      createdAt: '2020-10-04T14:49:40.000Z',
       user: {
         id: 'u2',
-        name: 'Lukas',
+        name: 'Elon Musk',
+      },
+    },
+    {
+      id: 'm4',
+      content: 'Good as well, preparing for the stream now.',
+      createdAt: '2020-10-07T14:47:00.000Z',
+      user: {
+        id: 'u1',
+        name: 'Vadim',
+      },
+    },
+    {
+      id: 'm5',
+      content: 'How is SpaceX doing?',
+      createdAt: '2020-10-07T14:48:00.000Z',
+      user: {
+        id: 'u1',
+        name: 'Vadim',
+      },
+    },
+    {
+      id: 'm6',
+      content: 'going to the Moooooon',
+      createdAt: '2020-10-07T14:49:00.000Z',
+      user: {
+        id: 'u2',
+        name: 'Elon Musk',
+      },
+    },
+    {
+      id: 'm6',
+      content: 'going to the Moooooon',
+      createdAt: '2020-10-07T14:49:00.000Z',
+      user: {
+        id: 'u2',
+        name: 'Elon Musk',
+      },
+    },
+    {
+      id: 'm6',
+      content: 'going to the Moooooon',
+      createdAt: '2020-10-07T14:49:00.000Z',
+      user: {
+        id: 'u2',
+        name: 'Elon Musk',
+      },
+    },
+    {
+      id: 'm7',
+      content: 'btw, SpaceX is interested in buying notJust.dev!',
+      createdAt: 1656497877769,
+      user: {
+        id: 'u2',
+        name: 'Elon Musk',
+      },
+    },
+    {
+      id: 'm7',
+      content: 'btw, SpaceX is interested in buying notJust.dev!',
+      createdAt: 1656497877769,
+      user: {
+        id: 'u2',
+        name: 'Elon Musk',
       },
     },
   ],

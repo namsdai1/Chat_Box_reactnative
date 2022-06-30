@@ -1,13 +1,17 @@
 import React, {memo} from 'react';
-import {TouchableOpacity, Text, StyleSheet} from 'react-native';
+import {TouchableOpacity, Text, StyleSheet, Pressable} from 'react-native';
 
 import shortnameToUnicode from '../../../helper/shortnameToUnicode';
 
-const Emoji = ({item}) => {
+const Emoji = ({item, setTextInput}) => {
   return (
-    <TouchableOpacity style={styles.emojiContainer}>
+    <Pressable
+      onPress={() =>
+        setTextInput(currenText => currenText + shortnameToUnicode[`:${item}:`])
+      }
+      style={styles.emojiContainer}>
       <Text style={styles.emoji}>{shortnameToUnicode[`:${item}:`]}</Text>
-    </TouchableOpacity>
+    </Pressable>
   );
 };
 
@@ -17,6 +21,7 @@ const styles = StyleSheet.create({
   },
   emoji: {
     fontSize: 25,
+    color: '#ffffff',
   },
 });
 

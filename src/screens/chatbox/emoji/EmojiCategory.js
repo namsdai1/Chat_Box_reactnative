@@ -1,17 +1,21 @@
 import React, {memo} from 'react';
-import {FlatList, Dimensions} from 'react-native';
+import {FlatList, Dimensions, View} from 'react-native';
 
 import Emoji from './Emoji';
 import {emojisByCategory} from '../../../data/emoji/emoji';
 
-const EmojiCategory = ({category}) => {
+const EmojiCategory = ({category, setTextInput, removeText}) => {
   return (
-    <FlatList
-      data={emojisByCategory[category]}
-      renderItem={({item}) => <Emoji item={item} />}
-      keyExtractor={item => item}
-      numColumns={8}
-    />
+    <View>
+      <FlatList
+        data={emojisByCategory[category]}
+        renderItem={({item}) => (
+          <Emoji setTextInput={setTextInput} item={item} />
+        )}
+        keyExtractor={item => item}
+        numColumns={8}
+      />
+    </View>
   );
 };
 

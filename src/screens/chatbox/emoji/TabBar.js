@@ -3,27 +3,34 @@ import {
   View,
   TouchableOpacity,
   StyleSheet,
-  Animated,
   Dimensions,
+  Animated,
 } from 'react-native';
 
-const TabBar = ({navigationState, position, setIndex}) => {
+const TabBar = ({navigationState, position, setIndex, setTextInput, text}) => {
   const inputRange = navigationState.routes.map((x, i) => i);
   return (
     <View style={styles.container}>
       {navigationState.routes.map((route, index) => {
-        const opacity = position.interpolate({
-          inputRange,
-          outputRange: inputRange.map(inputIndex =>
-            inputIndex === index ? 1 : 0.5,
-          ),
-        });
+        // const opacity = position.interpolate({
+        //   inputRange,
+        //   outputRange: inputRange.map(inputIndex =>
+        //     inputIndex === index ? 1 : 0.5,
+        //   ),
+        // });
         return (
           <TouchableOpacity
             key={index}
             style={styles.tab}
-            onPress={() => setIndex(index)}>
-            <Animated.Text style={{opacity, fontSize: 18}}>
+            onPress={() => {
+              // setIndex(index);
+              if (index !== navigationState.routes.length - 1) {
+                setIndex(index);
+              } else {
+                setTextInput(currentxt => currentxt.slice(0, -1));
+              }
+            }}>
+            <Animated.Text style={{color: '#ffffff', fontSize: 18}}>
               {route.title}
             </Animated.Text>
           </TouchableOpacity>

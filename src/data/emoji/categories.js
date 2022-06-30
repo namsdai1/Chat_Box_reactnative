@@ -46,5 +46,8 @@ const tabs = [
     tabLabel: '🏁',
     category: list[8],
   },
+  {
+    tabLabel: '❌',
+  },
 ];
 export default {list, tabs};

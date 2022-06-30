@@ -3223,6 +3223,7 @@ const emojis = {
   ':blue_car:': '🚙',
   ':blue_circle:': '🔵',
   ':blue_heart:': '💙',
+  ':black heart:': '🖤',
   ':blue_square:': '🟦',
   ':blush:': '😊',
   ':boar:': '🐗',

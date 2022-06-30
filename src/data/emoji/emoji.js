@@ -869,6 +869,7 @@ export const emojisByCategory = {
     'yellow_heart',
     'green_heart',
     'blue_heart',
+    'black heart',
     'purple_heart',
     'broken_heart',
     'heart_exclamation',
