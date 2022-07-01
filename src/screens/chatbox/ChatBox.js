@@ -18,6 +18,7 @@ import Chats from '../../data/Chats';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
+import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import EmojiSelector, {Categories} from 'react-native-emoji-selector';
 import EmojiPicker from './emoji/EmojiPicker';
 import {launchCamera, launchImageLibrary} from 'react-native-image-picker';
@@ -463,7 +464,7 @@ const BottomChat = ({keyBoard, setMessages, messages}) => {
               justifyContent: 'center',
               alignItems: 'center',
             }}>
-            <AntDesign name="like1" color={'black'} size={22} />
+            <FontAwesome name="camera" color={'black'} size={22} />
           </TouchableOpacity>
         )}
 
@@ -477,7 +478,7 @@ const BottomChat = ({keyBoard, setMessages, messages}) => {
               justifyContent: 'center',
               alignItems: 'center',
             }}>
-            <AntDesign name="like1" color={'black'} size={22} />
+            <FontAwesome name="picture-o" color={'black'} size={22} />
           </TouchableOpacity>
         )}
         <Animated.View

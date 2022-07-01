@@ -15,9 +15,9 @@
     "react-native-emoji-selector": "^0.2.0",
     "react-native-image-picker": "^4.8.4",
     "react-native-pager-view": "^5.4.24",
-    "react-native-reanimated": "^2.8.0",
     "react-native-tab-view": "^3.1.1",
     "react-native-vector-icons": "^9.1.0",
+    "react-native-vision-camera": "^2.13.5",
     "rn-animated-switch": "^1.0.0"
   },
   "devDependencies": {
