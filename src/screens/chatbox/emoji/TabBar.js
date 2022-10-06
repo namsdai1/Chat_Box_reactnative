@@ -50,8 +50,10 @@ const styles = StyleSheet.create({
     borderLeftWidth: 0,
     borderRightWidth: 0,
     borderColor: '#ccc',
+    backgroundColor: '#FFF',
   },
   tab: {
+    backgroundColor: '#FFF',
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',

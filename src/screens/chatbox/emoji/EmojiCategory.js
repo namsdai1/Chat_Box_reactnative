@@ -6,7 +6,7 @@ import {emojisByCategory} from '../../../data/emoji/emoji';
 
 const EmojiCategory = ({category, setTextInput, removeText}) => {
   return (
-    <View>
+    <View style={{backgroundColor: '#FFF'}}>
       <FlatList
         data={emojisByCategory[category]}
         renderItem={({item}) => (

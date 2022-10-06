@@ -11,7 +11,7 @@ export default {
       id: 'u2',
       name: 'Elon Musk',
       imageUri:
-        'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/elon.png',
+        'https://cdnimg.vietnamplus.vn/uploaded/xpcwvovt/2022_06_06/ttxvn_elon_musk.jpg',
     },
   ],
   messages: [
